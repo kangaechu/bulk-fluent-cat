@@ -1,0 +1,20 @@
+# .goreleaser.yml
+# Build customization
+builds:
+  - binary: bulk-fluent-cat
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+    env:
+      - CGO_ENABLED=0
+release:
+  prerelease: auto
+changelog:
+  filters:
+    exclude:
+      - Merge pull request
+      - Merge branch
+      - Update README
+      - Update CHANGELOG

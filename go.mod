@@ -8,5 +8,5 @@ require (
 	github.com/kr/pretty v0.2.1 // indirect
 	github.com/philhofer/fwd v1.0.0 // indirect
 	github.com/tinylib/msgp v1.1.2 // indirect
-	github.com/urfave/cli/v2 v2.10.2
+	github.com/urfave/cli/v2 v2.10.3
 )
